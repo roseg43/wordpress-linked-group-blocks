@@ -1,0 +1,22 @@
+{
+	"name": "fueled/linked-group-blocks",
+	"type": "wordpress-plugin",
+	"authors": [
+		{
+			"name": "Fueled",
+			"email": "info@10up.com"
+		}
+	],
+	"require": {
+		"php": ">=8.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"LinkedGroupBlocks\\": "src/"
+		}
+	},
+	"config": {
+		"autoloader-suffix": "LinkedGroupBlocks",
+		"optimize-autoloader": true
+	}
+}

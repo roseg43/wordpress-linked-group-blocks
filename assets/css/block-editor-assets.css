@@ -1,0 +1,24 @@
+/*
+ * Editor styles for the Linked Group Blocks plugin.
+ * Loaded in the block editor frame (outside the canvas iframe).
+ */
+
+.calhfa-group-link-panel .block-editor-link-control {
+	box-sizing: border-box;
+	max-width: 100%;
+
+	/* WordPress sets a min-width on LinkControl that overflows the sidebar */
+	min-width: 0 !important;
+
+	& .block-editor-link-control__search-input-wrapper {
+		box-sizing: border-box;
+		max-width: 100%;
+		min-width: 0;
+
+		& .block-editor-url-input {
+			margin: 0;
+			max-width: 100%;
+			min-width: 0;
+		}
+	}
+}

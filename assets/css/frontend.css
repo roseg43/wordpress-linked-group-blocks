@@ -1,0 +1,20 @@
+/*
+ * Frontend styles for the Linked Group Blocks plugin.
+ * Only loaded when a core/group block is present on the page.
+ */
+
+.has-group-link {
+	position: relative;
+
+	& .wp-block-group__link-overlay {
+		position: absolute;
+		inset: 0;
+		z-index: 1;
+	}
+
+	& a:not(.wp-block-group__link-overlay),
+	& button {
+		position: relative;
+		z-index: 2;
+	}
+}
