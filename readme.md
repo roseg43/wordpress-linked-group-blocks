@@ -2,6 +2,8 @@
 
 > Adds link functionality to the core WordPress Group block.
 
+<video src=".github/assets/videos/linked-group-blocks.webm" controls></video>
+
 ## Features
 
 - Link any Group block to an internal page or post, searched and selected directly from the editor
