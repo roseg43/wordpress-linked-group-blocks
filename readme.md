@@ -1,6 +1,8 @@
 # Linked Group Blocks
+> **Warning!** This block extension has not been extensively tested across all use cases. If you encounter a bug, please open an issue and I'll take a look when I have time.
 
-> Adds link functionality to the core WordPress Group block.
+
+Adds link functionality to the core WordPress Group block.
 
 ![Linked Group Blocks Demo](.github/assets/images/linked-group-blocks.gif)
 
