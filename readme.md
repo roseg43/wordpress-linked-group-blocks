@@ -2,7 +2,8 @@
 
 > Adds link functionality to the core WordPress Group block.
 
-<video src=".github/assets/videos/linked-group-blocks.webm" controls></video>
+![Linked Group Blocks Demo](.github/assets/images/linked-group-blocks.gif)
+
 
 ## Features
 
